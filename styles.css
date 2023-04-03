@@ -45,3 +45,8 @@
 #contact{
   background-color:#fff8ff; padding-top: 20%;
 }
+
+.bg-primary.scrolled {
+  background:#fffcd6 !important;
+  }
+  
