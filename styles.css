@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Start Custom Styles */
+.itemColorBlack{ 
+    color: #000 !important; 
+}
+
+.button:focus{
+  background-color: purple !important; color:white !important;
+}
+
+.button:active{
+  background-color: purple !important; color:white !important;
+}
+
+.button:hover{
+  background-color: purple !important; color:white !important;
+}
+
+.button:focus-visible{
+  background-color: purple !important; color:white !important;
+}
+
+.button:focus-within{
+  background-color: purple !important; color:white !important;
+}
+
+.button:disabled{
+  color:black !important;
+}
+
+
+#about{
+  padding-top: 10%; padding-bottom: 10%; padding-left: 15%; padding-right: 15%;
+}
+
+#mainNav{
+  margin-left: 70%;
+}
+
+#projects{
+  padding-left: 18%; padding-right: 18%; background-color:#fff8ff;
+}
+
+#contact{
+  background-color:#fff8ff; padding-top: 20%;
+}
