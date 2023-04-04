@@ -47,11 +47,11 @@
 }
 
 .bg-primary.scrolled {
-  background:#fffcd6 !important;
-  }
+  background:#fffee9 !important;
+}
 
 .bg-primary {
   /* Change to RGB and add opacity as the 4th param, 0 is completly opaque and 1 is fully visible */
-  background:rgb(255, 252, 214, .75) !important;
-  }
+  background:rgb(255, 254, 233, .75) !important;
+ }
   
