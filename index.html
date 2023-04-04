@@ -83,6 +83,35 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="card">
+              <img src="LULCchange_millcreek.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Land Use Land Cover Change</h5>
+                <div class="modal" id="lulcChange" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">LULC Change in Mill Creek Watershed between 2001 and 2011</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Land cover data for this project was retrieved from the Natioanl Land Cover Database, reclassified, then converted to vector format.
+                        Clips, buffers, and intersections were used to delineate features and trim the dataset to the Mill Creek Watershed. Summary statistics were 
+                        used determine percent land cover change between the two study periods. <br><br>
+                        All analyses were performed using ESRI's <b>ArcGIS Pro</b>. 
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#lulcChange">More info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
               <img src="riskindex_webster.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Surface and Groundwater Contamination Risk Index in Webster Township, MI</h5>
@@ -111,35 +140,6 @@
                   </div>
                 </div>
                 <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#riskIndex">More info</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <img src="LULCchange_millcreek.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Land Use Land Cover Change</h5>
-                <div class="modal" id="lulcChange" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">LULC Change in Mill Creek Watershed between 2001 and 2011</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        Land cover data for this project was retrieved from the Natioanl Land Cover Database, reclassified, then converted to vector format.
-                        Clips, buffers, and intersections were used to delineate features and trim the dataset to the Mill Creek Watershed. Summary statistics were 
-                        used determine percent land cover change between the two study periods. <br><br>
-                        All analyses were performed using ESRI's <b>ArcGIS Pro</b>. 
-
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#lulcChange">More info</a>
               </div>
             </div>
           </div>
