@@ -9,7 +9,7 @@
   background-color: purple !important; color:white !important;
 }
 
-.button:active{
+.nav-pills .nav-link.active{
   background-color: purple !important; color:white !important;
 }
 
@@ -48,9 +48,10 @@
 
 .bg-primary.scrolled {
   background:#fffee9 !important;
-  }
+}
 
 .bg-primary {
-  background:#fffee9 !important;
-  }
+  /* Change to RGB and add opacity as the 4th param, 0 is completly opaque and 1 is fully visible */
+  background:rgb(255, 254, 233, .75) !important;
+ }
   
